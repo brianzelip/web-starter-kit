@@ -1,6 +1,6 @@
 # Web starter kit
 
-This is a [gulp](http://gulpjs.com)-based package for jump starting web projects. It implements the following build tools:
+This is a [gulp](http://gulpjs.com)-based package for jump starting web pages. It implements the following build tools:
 - Local web server with livereload
 - Sass compiler
 - CSS autoprefixer
@@ -13,5 +13,6 @@ Other components include:
     + ?
 
 ## Influences
+
 - Harry Roberts' [ITCSS](http://itcss.io) for css architecture
 - 

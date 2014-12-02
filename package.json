@@ -1,7 +1,7 @@
 {
   "name": "web-starter-kit",
   "version": "0.0.1",
-  "description": "This is a gulp-based package for jump starting web projects.",
+  "description": "This is a gulp-based package for jump starting web pages.",
   "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
