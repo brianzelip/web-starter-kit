@@ -14,11 +14,14 @@ Other features include:
 
 ## Using web starter kit
 
-1. Clone this repo (or download the repo as a zip file and unzip it) to your local environment and change the directory name to your new project name.
-2. `cd new/project/directory`
-3. `gulp`
-4. Your default browser will open up to `localhost:8000`
-5. Make your new project in the `src` directory. All edits made to the `src` directory will build to the `dist` directory.
+1. `git clone git@github.com:brianzelip/web-starter-kit.git YourNewProject` (clone this repo to your local environment as `YourNewProject`)
+2. `cd YourNewProject`
+3. `rm -rf .git` (force removes this repo's `.git` file to make way for your own)
+4. `git init` (initialize your own `.git` repo)
+5. `git add remote git@github.com/yourUserName/YourNewProject.git` (create a new github repo from your new local repo)
+
+Make your new project in the `src` directory. All edits made to the `src` directory will build to the `dist` directory.
+
 
 ## Influences
 
