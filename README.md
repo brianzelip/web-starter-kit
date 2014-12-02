@@ -15,4 +15,3 @@ Other components include:
 ## Influences
 
 - Harry Roberts' [ITCSS](http://itcss.io) for css architecture
-- 
