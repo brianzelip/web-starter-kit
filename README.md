@@ -14,15 +14,17 @@ Other features include:
 
 ## Using web starter kit
 
+**Nodejs is required for running this web starter kit.**
+
 1. `git clone git@github.com:brianzelip/web-starter-kit.git YourNewProject` (clone this repo to your local environment as `YourNewProject`)
 2. `cd YourNewProject`
 3. `rm -rf .git` (force removes this repo's `.git` file to make way for your own)
 4. `git init` (initialize your own `.git` repo)
 5. `git add remote git@github.com/yourUserName/YourNewProject.git` (create a new github repo from your new local repo)
+6. `npm install`
 
-Make your new project in the `src` directory. All edits made to the `src` directory will build to the `dist` directory.
+Design your new project in the `src` directory. All edits made to the `src` directory will build to the `dist` directory upon file save.
 
+The only real content included here besides the gulp build tools are `_generic.normalize.scss`, `_generic.box-sizing.scss`, and some HTML head data. Everything else is up to you.
 
-## Influences
-
-- Harry Roberts' [ITCSS](http://itcss.io) for css architecture
+The CSS architecture is modeled after [Harry Roberts'](http://csswizardry.com) [ITCSS](http://itcss.io) approach. This approach suggests organizing CSS into global settings, tools, generic, base, objects, components, and trumps sections. This organizes CSS from generic to specific. For more background on ITCSS, see Harry's slide deck [Managing CSS Projects with ITCSS ](https://speakerdeck.com/dafed/managing-css-projects-with-itcss).
