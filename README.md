@@ -8,8 +8,8 @@ This is a [gulp](http://gulpjs.com)-based package for jump starting web pages. I
 - Markdown compiler
 
 Other features include:
-- [normalize.css](https://github.com/necolas/normalize.css) & a slightly updated [box-sizing](https://github.com/mrmrs/box) rule.
-- The Merriweather sans and serif font stack from google web fonts
+- [normalize.css](https://github.com/necolas/normalize.css) & a slightly updated [box](https://github.com/mrmrs/box)-sizing rule.
+- The [Merriweather](http://www.google.com/fonts/specimen/Merriweather) and [Merriweather Sans](http://www.google.com/fonts/specimen/Merriweather+Sans) web font stack.
 
 
 ## Using web starter kit
