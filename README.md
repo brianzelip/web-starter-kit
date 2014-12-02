@@ -18,7 +18,7 @@ Other features include:
 2. `cd new/project/directory`
 3. `gulp`
 4. Your default browser will open up to `localhost:8000`
-5. Make your new project in the `src` directory. All edits you make to the `src/` directory will build to the `dist` directory.
+5. Make your new project in the `src` directory. All edits made to the `src` directory will build to the `dist` directory.
 
 ## Influences
 
