@@ -16,13 +16,13 @@ Other features include:
 
 **Nodejs is required for running this web starter kit.**
 
-1. `git clone git@github.com:brianzelip/web-starter-kit.git YourNewProject` - clones this repo to your local environment as `YourNewProject`
+1. `git clone git@github.com:brianzelip/web-starter-kit.git YourNewProject` -- clones this repo to your local environment as `YourNewProject`
 2. `cd YourNewProject`
-3. `rm -rf .git` - force removes this repo's .git file to make way for your own
-4. `git init` - initializes your own .git repo
-5. `git add remote git@github.com/yourUserName/YourNewProject.git` - creates a new github repo from your new local repo
-6. `npm install` - installs the gulp tools specified in package.json
-7. `gulp` - opens `/dist/index.html` in your default browser at http://localhost:8000 and livereloads on any changes made to HTML, Sass, and Markdown files the `/src` directory
+3. `rm -rf .git` -- force removes this repo's .git file to make way for your own
+4. `git init` -- initializes your own .git repo
+5. `git add remote git@github.com/yourUserName/YourNewProject.git` -- creates a new github repo from your new local repo
+6. `npm install` -- installs the gulp tools specified in `/package.json`
+7. `gulp` -- opens `/dist/index.html` in your default browser at http://localhost:8000 and livereloads on any changes made to HTML, Sass, and Markdown files the `/src` directory
 
 Design your new project in the `/src` directory. All edits made to the `/src` directory will build to the `/dist` directory upon file save.
 
