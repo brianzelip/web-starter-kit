@@ -28,4 +28,6 @@ Design your new project in the `/src` directory. All edits made to the `/src` di
 
 The only real content included here besides the gulp build tools are `_generic.normalize.scss`, `_generic.box-sizing.scss`, and some HTML `<head>` metadata. Everything else is up to you.
 
+You may need to edit the HTML language attribute as appropriate. And you'll probably want to remove some of the web font styles.
+
 The CSS architecture is modeled after [Harry Roberts'](http://csswizardry.com) [ITCSS](http://itcss.io) approach. This approach suggests organizing CSS into global settings, tools, generic, base, objects, components, and trumps sections. This organizes CSS from generic to specific. For more background on ITCSS, see Harry's slide deck [Managing CSS Projects with ITCSS ](https://speakerdeck.com/dafed/managing-css-projects-with-itcss).
